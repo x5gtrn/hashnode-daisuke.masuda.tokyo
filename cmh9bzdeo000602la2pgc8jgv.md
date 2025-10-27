@@ -1,5 +1,5 @@
 ---
-title: "Building Web Apps Through AI Conversation"
+title: "An Engineer's Guide to Lovable"
 datePublished: Mon Oct 27 2025 16:07:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmh9bzdeo000602la2pgc8jgv
 slug: article-2025-10-28-0105
@@ -12,6 +12,8 @@ tags: ai, web-development, full-stack
 ## Introduction
 
 Lovable is an AI‑driven development platform that allows engineers to build full‑stack web applications using natural language conversations. Instead of wiring up frameworks by hand, you describe what you want, and the platform autonomously designs, codes and deploys the application. Over 500,000 entrepreneurs and developers have already adopted Lovable. With a natural‑language interface, real‑time code generation and full‑stack support, it turns ideas into working software.
+
+%[https://speakerdeck.com/x5gtrn/lovable-build-web-apps-through-ai-conversation-alone] 
 
 ## Modern Tech Stack
 
