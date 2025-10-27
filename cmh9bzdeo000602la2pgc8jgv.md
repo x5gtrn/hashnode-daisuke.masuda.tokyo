@@ -3,6 +3,8 @@ title: "Building Web Apps Through AI Conversation: An Engineer's Guide to Lovabl
 datePublished: Mon Oct 27 2025 16:07:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmh9bzdeo000602la2pgc8jgv
 slug: article-2025-10-28-0105
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761582287025/48cd7055-a4bb-493f-99f0-0d74c783e6a1.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761582309405/a4593a46-f37b-47bc-b34e-f2680be7ba93.png
 tags: ai, web-development, full-stack
 
 ---
