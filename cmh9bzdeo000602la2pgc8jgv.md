@@ -30,7 +30,7 @@ Lovable generates clean, human‑readable code that you own outright. There is n
 
 Lovable gives you a real, production‑grade stack rather than a toy environment. The front end uses **React.js**, **TypeScript** and **Tailwind CSS**, compiled via **Vite** for rapid builds. This combination lets you write type‑safe components, iterate quickly and enjoy a responsive design system. On the back end, Lovable uses **Supabase** – an open‑source Postgres platform with row‑level security, instant REST/GraphQL APIs, authentication and real‑time subscriptions. Supabase’s integration with Lovable means your database schema automatically generates typed API clients for the front‑end, and you can implement complex policies or relations through natural language rather than manually writing SQL.
 
-Deployment happens either on **Lovable Cloud** or on your own servers. When using Lovable Cloud you can set custom domains, configure environment variables and enable image generation. Because everything is plain code, migrating away from Lovable is trivial: you’re free to host your own database or front‑end at any time.
+Deployment happens either on **Lovable Cloud** or on your own servers. When using Lovable Cloud, you can set custom domains, configure environment variables and enable image generation. Because everything is plain code, migrating away from Lovable is trivial: you’re free to host your own database or front‑end at any time.
 
 ## Rapid Prototyping and From MVP to SaaS
 
@@ -66,7 +66,7 @@ To get the most out of Lovable, keep these best practices in mind:
     
 * **Use version control and branching.** Commit your progress and experiment on separate branches. Lovable supports Git operations, so you can roll back if needed.
     
-* **Leverage Chat Mode before Agent Mode.** Spend 60–70% of your time planning and clarifying in Chat Mode. Only switch to Agent Mode when the requirements are well defined.
+* **Leverage Chat Mode before Agent Mode.** Spend 60–70% of your time planning and clarifying in Chat Mode. Only switch to Agent Mode when the requirements are well-defined.
     
 * **Use Remix or clean starts if stuck.** If the agent enters a loop or the codebase becomes inconsistent, ask it to remix the project from a clean state and reapply your requirements.
     
