@@ -9,17 +9,14 @@ tags: aws, opensource, n8n, workflow-automation, selfhosting
 
 ---
 
-n8n is an open‑source workflow automation platform that lets you build complex automations by connecting APIs, databases and services through a visual, node‑based editor ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). It runs on Node.js and TypeScript, uses a fair‑code license and supports both a managed cloud service and self‑hosting ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). Self‑hosting gives engineers full control over data, security and customisation and often reduces operating costs compared with SaaS subscriptions. This guide uses a set of slides on hosting n8n on AWS as a starting point and expands it with deeper explanations, examples and references.
+[**n8n**](https://n8n.io/) is an open‑source workflow automation platform that lets you build complex automations by connecting APIs, databases and services through a visual, node‑based editor ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). It runs on Node.js and TypeScript, uses a fair‑code license and supports both a managed cloud service and self‑hosting ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). Self‑hosting gives engineers full control over data, security and customisation and often reduces operating costs compared with SaaS subscriptions. This guide uses a set of slides on hosting n8n on AWS as a starting point and expands it with deeper explanations, examples and references.
 
 %[https://speakerdeck.com/x5gtrn/n8n-self-hosting-on-aws] 
 
 ## Why self‑host on AWS?
 
-Amazon Web Services (AWS) is a flexible platform for deploying self‑hosted applications.  
-According to the official n8n hosting guide, AWS offers several options for running n8n, including EC2 (virtual machines) and EKS (Kubernetes) ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).  
-EKS adds complexity but provides the best path to horizontal scalability ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).
+Amazon Web Services (AWS) is a flexible platform for deploying self‑hosted applications. According to the official n8n hosting guide, AWS offers several options for running n8n, including EC2 (virtual machines) and EKS (Kubernetes) ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)). EKS adds complexity but provides the best path to horizontal scalability ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).
 
-  
 However, the documentation also warns that self‑hosting requires knowledge of servers, containers, scaling and security; mistakes can lead to data loss or downtime ([n8n Hosting Documentation and Guides](https://docs.n8n.io/hosting/#:~:text=Self)).  
 Before choosing AWS, evaluate whether the flexibility of self‑hosting outweighs the simplicity of n8n’s cloud offering for your use case.
 
@@ -31,7 +28,7 @@ Before choosing AWS, evaluate whether the flexibility of self‑hosting outweigh
     
 * **Cost optimisation:** For low‑volume use cases the free tier of AWS EC2 may be cheaper than subscription fees.
     
-* **Scalability:** With EKS or autoscaling EC2 groups you can scale workers based on load.
+* **Scalability:** With EKS or autoscaling EC2 groups you can scale workers based on the load.
     
 
 ### Considerations and prerequisites
@@ -117,7 +114,7 @@ For production workloads or teams that need high availability and autoscaling, r
     
 4. Install an ingress controller and configure a TLS certificate via AWS Certificate Manager.
     
-5. Optionally enable queue mode and autoscaling.
+5. Optionally, enable queue mode and autoscaling.
     
 
 **Pros:** resilient, scalable and cloud‑native; integrates with other AWS services; can roll out updates with zero downtime.  
@@ -142,8 +139,7 @@ Self‑hosting brings responsibility for security. Here are key practices:
 
 ## Example workflow: server downtime notification
 
-To illustrate the power of n8n, consider a simple workflow that monitors a web server and notifies you on Slack or email if it goes down.  
-This example is inspired by a DigitalOcean tutorial that demonstrates starting n8n and creating your first workflow ([How to Set Up n8n: A Step-by-Step Guide for Self-Hosted …](https://www.digitalocean.com/community/tutorials/how-to-setup-n8n#:~:text=,Start%20n8n%20and%20Verify%20Installation)).
+To illustrate the power of n8n, consider a simple workflow that monitors a web server and notifies you on Slack or email if it goes down. This example is inspired by a DigitalOcean tutorial that demonstrates starting n8n and creating your first workflow ([How to Set Up n8n: A Step-by-Step Guide for Self-Hosted …](https://www.digitalocean.com/community/tutorials/how-to-setup-n8n#:~:text=,Start%20n8n%20and%20Verify%20Installation)).
 
 1. **HTTP Request node** – configure it to send a GET request to your server’s health endpoint every minute. Set `Continue On Fail` to `false` so that failures propagate.
     
@@ -151,7 +147,7 @@ This example is inspired by a DigitalOcean tutorial that demonstrates starting n
     
 3. **Slack node (or Email node)** – send a message to a channel or email address informing you that the server is down. You can include the timestamp, error details and a link to the server logs.
     
-4. **Delay node (optional)** – wait for a defined period before rechecking, to avoid spamming.
+4. **Delay node (optional)** – wait for a defined period before rechecking to avoid spamming.
     
 
 This simple workflow exemplifies how n8n can orchestrate checks and notifications without writing custom code.
