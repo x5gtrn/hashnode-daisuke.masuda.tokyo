@@ -2,7 +2,7 @@
 title: "Self-Hosting n8n on AWS: A Comprehensive Guide"
 datePublished: Tue Oct 28 2025 00:24:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmh9tqdv3000002l5cnj27ile
-slug: article-2025-10-28-32
+slug: article-2025-10-28-0923
 tags: aws, opensource, n8n, workflow-automation, selfhosting
 
 ---
