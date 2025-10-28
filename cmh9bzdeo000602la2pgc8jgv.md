@@ -19,7 +19,7 @@ This post is a practical guide to Lovable for engineers. We’ll unpack how the 
 
 ## How Lovable Works
 
-At its core, Lovable is an AI‑assisted development platform that connects a natural‑language chat interface to a full‑stack codebase. You describe the desired behaviour or feature in plain language and Lovable’s agent breaks the request down into tasks, writes or modifies React and TypeScript components, updates database schemas and security policies, and deploys your changes. The platform supports two complementary modes:
+At its core, Lovable is an AI‑assisted development platform that connects a natural‑language chat interface to a full‑stack codebase. You describe the desired behaviour or feature in plain language, and Lovable’s agent breaks the request down into tasks, writes or modifies React and TypeScript components, updates database schemas and security policies, and deploys your changes. The platform supports two complementary modes:
 
 * **Chat Mode** – Use this conversational mode to explore your codebase, inspect functions, ask architectural questions and plan changes. Each message costs one credit. Chat Mode is perfect for debugging, planning new features or verifying database relationships before committing to a larger refactor.
     
@@ -38,7 +38,7 @@ Deployment happens either on **Lovable Cloud** or on your own servers. When usin
 
 One of Lovable’s biggest strengths is turning ideas into working prototypes in minutes. You can create landing pages, marketing sites or proof‑of‑concept apps by simply describing them. For example, the founder of an AI‑powered investment CRM used Lovable to build an investor dashboard and CRM in a weekend. Another builder created a print‑on‑demand service using Lovable’s Supabase integration and Stripe payments. These early projects let you validate your idea with real users and gather feedback before investing in a full product.
 
-When you’re ready to go deeper, Lovable’s agent can scaffold a full SaaS application. It has built‑in templates for common features like user authentication (email/password and social logins), role‑based access control, payment subscriptions via Stripe, CRUD dashboards and file uploads. Because the stack is real code, you can easily integrate third‑party APIs, write custom business logic or import your own React components. Several start‑ups have already shipped products on Lovable, from AI search engines to analytics dashboards and recruitment tools.
+When you’re ready to go deeper, Lovable’s agent can scaffold a full SaaS application. It has built‑in templates for common features like user authentication (email/password and social logins), role‑based access control, payment subscriptions via Stripe, CRUD dashboards and file uploads. Because the stack is real code, you can integrate third‑party APIs, write custom business logic or import your own React components. Several start‑ups have already shipped products on Lovable, from AI search engines to analytics dashboards and recruitment tools.
 
 ## Extending Lovable for Education and Internal Tools
 
