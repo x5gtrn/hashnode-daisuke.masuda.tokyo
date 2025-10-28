@@ -9,13 +9,13 @@ tags: ai, web-development, full-stack
 
 ---
 
-## Introduction
+Recent advances in generative AI have blurred the line between natural language and software development. Tools like Anthropic’s Claude and Microsoft Power Apps Copilot show that you can describe an application in plain English and get working code [theverge.com](http://theverge.com) [learn.microsoft.com](http://learn.microsoft.com). Lovable takes this idea further by letting engineers build complete, production‑ready web applications through a conversational interface. Unlike no‑code platforms that hide your code behind opaque abstractions, Lovable gives you full ownership of a modern stack while still harnessing the power of AI.
 
-Recent advances in generative AI have blurred the line between natural language and software development. Tools like Anthropic’s Claude and Microsoft Power Apps Copilot show that you can describe an application in plain English and get working code [theverge.com](https://www.theverge.com/news/693342/anthropic-claude-ai-apps-artifact) [learn.microsoft.com](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/ai-conversations-create-app). Lovable takes this idea further by letting engineers build complete, production‑ready web applications through a conversational interface. Unlike no‑code platforms that hide your code behind opaque abstractions, Lovable gives you full ownership of a modern stack while still harnessing the power of AI.
+This post is a practical guide to Lovable for engineers. We’ll unpack how the platform works, explain its underlying technologies, show how to move from prototypes to full‑blown SaaS products, and share best practices for getting the most value out of conversational coding. The goal is not to replace engineers but to amplify their productivity; as Google CEO Sundar Pichai recently said when building a custom webpage with AI tools, it feels like “vibe coding”—a delightful way to write code [businessinsider.com](http://businessinsider.com).
 
-This post is a practical guide to Lovable for engineers. We’ll unpack how the platform works, explain its underlying technologies, show how to move from prototypes to full‑blown SaaS products, and share best practices for getting the most value out of conversational coding. The goal is not to replace engineers but to amplify their productivity; as Google CEO Sundar Pichai recently said when building a custom webpage with AI tools, it feels like “vibe coding”—a delightful way to write code [businessinsider.com](https://www.businessinsider.com/sundar-pichai-google-vibe-coding-software-engineer-ai-cursor-replit-2025-6).
+%[https://speakerdeck.com/x5gtrn/lovable-build-web-apps-through-ai-conversation-alone] 
 
-## How Lovable Works
+## How Lovable Works
 
 At its core, Lovable is an AI‑assisted development platform that connects a natural‑language chat interface to a full‑stack codebase. You describe the desired behaviour or feature in plain language and Lovable’s agent breaks the request down into tasks, writes or modifies React and TypeScript components, updates database schemas and security policies, and deploys your changes. The platform supports two complementary modes:
 
@@ -71,6 +71,10 @@ To get the most out of Lovable, keep these best practices in mind:
 * **Use Remix or clean starts if stuck.** If the agent enters a loop or the codebase becomes inconsistent, ask it to remix the project from a clean state and reapply your requirements.
     
 
+## Pricing and Plans
+
+Lovable uses a credit‑based system. Chat Mode messages cost one credit each, while Agent Mode consumption is usage‑based; complex tasks use more compute but typically cost less than a dozen credits. There is a generous free tier with 30 credits per month for public projects, making it easy to experiment. The Pro plan (around $25 per month) includes 150 credits, private projects, custom domains and credit rollover. Business and Enterprise plans add features like single sign‑on, group‑based access control and dedicated support. Credits roll over on paid plans, and student discounts are available.
+
 ## Conclusion
 
-Generative AI is redefining how engineers build software. Lovable shows that natural language can be translated into a modern web stack without sacrificing code quality or ownership. By combining a chat interface with a React/TypeScript front end, a Supabase back end and automated deployment, Lovable compresses development timelines and lets you focus on your product vision. While tools like ChatGPT have already helped developers build complex apps [medium.com](https://medium.com/@colinbaird_51123/tips-for-building-an-application-from-scratch-with-chatgpt-as-a-non-developer-9b256336d6aa), platforms like Lovable package those capabilities into a cohesive workflow. Start experimenting with conversational coding today and see how fast you can turn an idea into reality.
+Generative AI is redefining how engineers build software. Lovable shows that natural language can be translated into a modern web stack without sacrificing code quality or ownership. By combining a chat interface with a React/TypeScript front end, a Supabase back end and automated deployment, Lovable compresses development timelines and lets you focus on your product vision. While tools like ChatGPT have already helped developers build complex apps [medium.com](http://medium.com), platforms like Lovable package those capabilities into a cohesive workflow. Start experimenting with conversational coding today and see how fast you can turn an idea into reality.
