@@ -9,7 +9,9 @@ tags: ai, web-development, full-stack
 
 ---
 
-Recent advances in generative AI have blurred the line between natural language and software development. Tools like Anthropic’s Claude and Microsoft Power Apps Copilot show that you can describe an application in plain English and get working code [theverge.com](http://theverge.com) [learn.microsoft.com](http://learn.microsoft.com). Lovable takes this idea further by letting engineers build complete, production‑ready web applications through a conversational interface. Unlike no‑code platforms that hide your code behind opaque abstractions, Lovable gives you full ownership of a modern stack while still harnessing the power of AI.
+Recent advances in generative AI have blurred the line between natural language and software development. Tools like Anthropic’s Claude and Microsoft Power Apps Copilot show that you can describe an application in plain English and get working code [theverge.com](http://theverge.com) [learn.microsoft.com](http://learn.microsoft.com).
+
+[**Lovable**](https://lovable.dev/) takes this idea further by letting engineers build complete, production‑ready web applications through a conversational interface. Unlike no‑code platforms that hide your code behind opaque abstractions, Lovable gives you full ownership of a modern stack while still harnessing the power of AI.
 
 This post is a practical guide to Lovable for engineers. We’ll unpack how the platform works, explain its underlying technologies, show how to move from prototypes to full‑blown SaaS products, and share best practices for getting the most value out of conversational coding. The goal is not to replace engineers but to amplify their productivity; as Google CEO Sundar Pichai recently said when building a custom webpage with AI tools, it feels like “vibe coding”—a delightful way to write code [businessinsider.com](http://businessinsider.com).
 
