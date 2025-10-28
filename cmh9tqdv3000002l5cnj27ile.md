@@ -3,6 +3,8 @@ title: "Self-Hosting n8n on AWS: A Comprehensive Guide"
 datePublished: Tue Oct 28 2025 00:24:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmh9tqdv3000002l5cnj27ile
 slug: article-2025-10-28-0923
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761611408987/c2e1a2e9-eea4-47cd-af1a-10d2009a1d4f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761611429756/7c86332f-5903-4716-896f-b9f8ac330ff0.png
 tags: aws, opensource, n8n, workflow-automation, selfhosting
 
 ---
@@ -11,6 +13,8 @@ n8n is an open‑source workflow automation platform that lets you build complex
 It runs on Node.js and TypeScript, uses a fair‑code license and supports both a managed cloud service and self‑hosting ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)).  
 Self‑hosting gives engineers full control over data, security and customisation and often reduces operating costs compared with SaaS subscriptions.  
 This guide uses a set of slides on hosting n8n on AWS as a starting point and expands it with deeper explanations, examples and references.
+
+%[https://speakerdeck.com/x5gtrn/n8n-self-hosting-on-aws] 
 
 ## Why self‑host on AWS?
 
@@ -56,7 +60,7 @@ This is the simplest approach and works well for small to medium workloads. You 
     
     ```plaintext
     sudo apt update && sudo apt install -y docker.io docker-compose  
-    sudo systemctl enable --now docker  
+    sudo systemctl enable --now docker
     ```
     
 3. **Create a working directory** and a `docker-compose.yml` file. Here is an example using SQLite (for production use, switch to Postgres):
@@ -74,7 +78,7 @@ This is the simplest approach and works well for small to medium workloads. You 
           - N8N_BASIC_AUTH_PASSWORD=<yourPassword>  
           - GENERIC_TIMEZONE=Asia/Tokyo  
         volumes:  
-          - ./n8n-data:/home/node/.n8n  
+          - ./n8n-data:/home/node/.n8n
     ```
     
     Replace `<yourUser>` and `<yourPassword>` with strong credentials. The `volumes` entry stores workflows persistently on the host.
