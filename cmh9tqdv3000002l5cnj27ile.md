@@ -17,7 +17,9 @@ n8n is an open‑source workflow automation platform that lets you build complex
 
 Amazon Web Services (AWS) is a flexible platform for deploying self‑hosted applications.  
 According to the official n8n hosting guide, AWS offers several options for running n8n, including EC2 (virtual machines) and EKS (Kubernetes) ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).  
-EKS adds complexity but provides the best path to horizontal scalability ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).  
+EKS adds complexity but provides the best path to horizontal scalability ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).
+
+  
 However, the documentation also warns that self‑hosting requires knowledge of servers, containers, scaling and security; mistakes can lead to data loss or downtime ([n8n Hosting Documentation and Guides](https://docs.n8n.io/hosting/#:~:text=Self)).  
 Before choosing AWS, evaluate whether the flexibility of self‑hosting outweighs the simplicity of n8n’s cloud offering for your use case.
 
@@ -169,10 +171,7 @@ This simple workflow exemplifies how n8n can orchestrate checks and notification
 
 ## Conclusion
 
-Self‑hosting n8n on AWS gives engineers a powerful automation platform with full control over infrastructure and data.  
-AWS offers flexible deployment models—from lightweight EC2 instances to robust EKS clusters—allowing you to start small and scale as your needs grow ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)).  
-Remember that self‑hosting demands expertise in server management and security; if you prefer a hands‑off experience, n8n’s managed cloud might be a better fit ([n8n Hosting Documentation and Guides](https://docs.n8n.io/hosting/#:~:text=Self)).  
-For those willing to take the reins, this guide provides the foundation to deploy n8n on AWS with confidence, customise it to your workflow, and harness the full potential of open‑source automation.
+Self‑hosting n8n on AWS gives engineers a powerful automation platform with full control over infrastructure and data. AWS offers flexible deployment models—from lightweight EC2 instances to robust EKS clusters—allowing you to start small and scale as your needs grow ([Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/#:~:text=Hosting%20n8n%20on%20Amazon%20Web,n8n%20on%20Amazon%20Web%20Services)). Remember that self‑hosting demands expertise in server management and security; if you prefer a hands‑off experience, n8n’s managed cloud might be a better fit ([n8n Hosting Documentation and Guides](https://docs.n8n.io/hosting/#:~:text=Self)). For those willing to take the reins, this guide provides the foundation to deploy n8n on AWS with confidence, customise it to your workflow, and harness the full potential of open‑source automation.
 
 ---
 
