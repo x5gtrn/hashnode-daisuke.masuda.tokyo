@@ -9,10 +9,7 @@ tags: aws, opensource, n8n, workflow-automation, selfhosting
 
 ---
 
-n8n is an open‑source workflow automation platform that lets you build complex automations by connecting APIs, databases and services through a visual, node‑based editor ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)).  
-It runs on Node.js and TypeScript, uses a fair‑code license and supports both a managed cloud service and self‑hosting ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)).  
-Self‑hosting gives engineers full control over data, security and customisation and often reduces operating costs compared with SaaS subscriptions.  
-This guide uses a set of slides on hosting n8n on AWS as a starting point and expands it with deeper explanations, examples and references.
+n8n is an open‑source workflow automation platform that lets you build complex automations by connecting APIs, databases and services through a visual, node‑based editor ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). It runs on Node.js and TypeScript, uses a fair‑code license and supports both a managed cloud service and self‑hosting ([Setting up n8n for free using AWS](https://www.reddit.com/r/n8n/comments/1kt9hag/setting_up_n8n_for_free_using_aws/#:~:text=Name%3A%20n8n%20Logo%3A%20N8n,io)). Self‑hosting gives engineers full control over data, security and customisation and often reduces operating costs compared with SaaS subscriptions. This guide uses a set of slides on hosting n8n on AWS as a starting point and expands it with deeper explanations, examples and references.
 
 %[https://speakerdeck.com/x5gtrn/n8n-self-hosting-on-aws] 
 
