@@ -9,11 +9,11 @@ tags: ai, web-development, full-stack
 
 ---
 
-Recent advances in generative AI have blurred the line between natural language and software development. Tools like Anthropic’s Claude and Microsoft Power Apps Copilot show that you can describe an application in plain English and get working code [theverge.com](http://theverge.com) [learn.microsoft.com](http://learn.microsoft.com).
+Recent advances in generative AI have blurred the line between natural language and software development. [Tools like Anthropic’s Claude](https://theverge.com) and [Microsoft Power Apps Copilot](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/ai-conversations-create-app) show that you can describe an application in plain English and get working code.
 
 [**Lovable**](https://lovable.dev/) takes this idea further by letting engineers build complete, production‑ready web applications through a conversational interface. Unlike no‑code platforms that hide your code behind opaque abstractions, Lovable gives you full ownership of a modern stack while still harnessing the power of AI.
 
-This post is a practical guide to Lovable for engineers. We’ll unpack how the platform works, explain its underlying technologies, show how to move from prototypes to full‑blown SaaS products, and share best practices for getting the most value out of conversational coding. The goal is not to replace engineers but to amplify their productivity; as Google CEO Sundar Pichai recently said when building a custom webpage with AI tools, it feels like “vibe coding”—a delightful way to write code [businessinsider.com](http://businessinsider.com).
+This post is a practical guide to Lovable for engineers. We’ll unpack how the platform works, explain its underlying technologies, show how to move from prototypes to full‑blown SaaS products, and share best practices for getting the most value out of conversational coding. The goal is not to replace engineers but to amplify their productivity; as Google CEO Sundar Pichai recently said when building a custom webpage with AI tools, it feels like [“vibe coding”—a delightful way to write code](https://www.businessinsider.com/sundar-pichai-google-vibe-coding-software-engineer-ai-cursor-replit-2025-6).
 
 %[https://speakerdeck.com/x5gtrn/lovable-build-web-apps-through-ai-conversation-alone] 
 
@@ -79,4 +79,4 @@ Lovable uses a credit‑based system. Chat Mode messages cost one credit each, w
 
 ## Conclusion
 
-Generative AI is redefining how engineers build software. Lovable shows that natural language can be translated into a modern web stack without sacrificing code quality or ownership. By combining a chat interface with a React/TypeScript front end, a Supabase back end and automated deployment, Lovable compresses development timelines and lets you focus on your product vision. While tools like ChatGPT have already helped developers build complex apps [medium.com](http://medium.com), platforms like Lovable package those capabilities into a cohesive workflow. Start experimenting with conversational coding today and see how fast you can turn an idea into reality.
+Generative AI is redefining how engineers build software. Lovable shows that natural language can be translated into a modern web stack without sacrificing code quality or ownership. By combining a chat interface with a React/TypeScript front end, a Supabase back end and automated deployment, Lovable compresses development timelines and lets you focus on your product vision. While tools like ChatGPT have already helped developers build complex apps [medium.com](https://medium.com/@colinbaird_51123/tips-for-building-an-application-from-scratch-with-chatgpt-as-a-non-developer-9b256336d6aa), platforms like Lovable package those capabilities into a cohesive workflow. Start experimenting with conversational coding today and see how fast you can turn an idea into reality.
