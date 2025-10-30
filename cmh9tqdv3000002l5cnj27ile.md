@@ -3,8 +3,8 @@ title: "Self-Hosting n8n on AWS: A Comprehensive Guide"
 datePublished: Tue Oct 28 2025 00:24:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmh9tqdv3000002l5cnj27ile
 slug: article-2025-10-28-0923
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761611408987/c2e1a2e9-eea4-47cd-af1a-10d2009a1d4f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761611429756/7c86332f-5903-4716-896f-b9f8ac330ff0.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761794793547/979838a3-7e6a-49ed-979c-2f454238a472.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761795737231/7aa6dee0-6015-454a-b66a-2484919834cc.png
 tags: aws, opensource, n8n, workflow-automation, selfhosting
 
 ---
