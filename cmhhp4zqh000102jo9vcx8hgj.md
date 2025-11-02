@@ -2,7 +2,7 @@
 title: "Building Production-Ready Apps with AI Conversation"
 datePublished: Sun Nov 02 2025 12:37:38 GMT+0000 (Coordinated Universal Time)
 cuid: cmhhp4zqh000102jo9vcx8hgj
-slug: building-production-ready-apps-with-ai-conversation
+slug: article-2025-11-02-2137
 
 ---
 
