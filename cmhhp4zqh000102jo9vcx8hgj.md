@@ -3,6 +3,9 @@ title: "Building Production-Ready Apps with AI Conversation"
 datePublished: Sun Nov 02 2025 12:37:38 GMT+0000 (Coordinated Universal Time)
 cuid: cmhhp4zqh000102jo9vcx8hgj
 slug: article-2025-11-02-2137
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762088612914/44ec3f1c-3b21-4707-a6da-74540a61da35.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762088752241/1e62812d-fb9d-46a3-a554-e60f8fc85dec.png
+tags: tutorial, ai, automation, backend-development, full-stack-development, ai-assisted-development, youware
 
 ---
 
