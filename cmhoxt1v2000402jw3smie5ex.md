@@ -21,7 +21,7 @@ Vibe Coding represents a fundamental shift in how we approach software developme
 
 ### The Core Workflow
 
-The development cycle is dramatically accelerated:
+The development cycle is dramatically speeded up:
 
 1. **Prompt**: Describe your idea in natural language
     
