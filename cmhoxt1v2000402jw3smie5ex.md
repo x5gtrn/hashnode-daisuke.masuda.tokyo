@@ -40,7 +40,7 @@ This loop is orders of magnitude faster than traditional development, enabling r
     
 * **Democratized Development**: Non-developers can now build functional applications
     
-* **Accelerated Iteration**: The feedback loop from idea to implementation is measured in seconds, not hours
+* **Faster Iteration**: The feedback loop from idea to implementation is measured in seconds, not hours
     
 * **Lower Entry Barrier**: Natural language interfaces make programming concepts accessible to a broader audience
     
