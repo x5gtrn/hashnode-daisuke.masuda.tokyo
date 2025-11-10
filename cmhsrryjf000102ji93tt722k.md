@@ -11,6 +11,8 @@ The landscape of AI application development is undergoing a fundamental shift. W
 
 In this comprehensive technical overview, we'll explore Google Opal's architecture, capabilities, and practical applications from an engineering perspective. Whether you're prototyping AI workflows, building proof-of-concepts, or exploring the future of no-code AI development, this guide will help you understand when and how to leverage Opal effectively.
 
+%[https://speakerdeck.com/x5gtrn/google-opal-technical-overview-report] 
+
 ## What is Google Opal? Core Concepts Explained
 
 Google Opal is fundamentally a **visual workflow builder powered by natural language**. Unlike traditional no-code platforms that require you to learn specific UI patterns and connections, Opal interprets your intentions expressed in plain English and generates the corresponding workflow architecture.
