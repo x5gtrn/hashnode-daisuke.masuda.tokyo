@@ -13,7 +13,7 @@ The landscape of AI application development is undergoing a fundamental shift. W
 
 In this comprehensive technical overview, we'll explore Google Opal's architecture, capabilities, and practical applications from an engineering perspective. Whether you're prototyping AI workflows, building proof-of-concepts, or exploring the future of no-code AI development, this guide will help you understand when and how to leverage Opal effectively.
 
-%[https://speakerdeck.com/x5gtrn/google-opal-technical-overview-report] 
+%[https://speakerdeck.com/x5gtrn/a-comprehensive-guide-to-google-opal] 
 
 ## What is Google Opal? Core Concepts Explained
 
