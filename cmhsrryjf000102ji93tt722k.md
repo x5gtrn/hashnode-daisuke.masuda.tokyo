@@ -3,6 +3,8 @@ title: "Google Opal: Building AI Mini-Apps with Natural Language"
 datePublished: Mon Nov 10 2025 06:36:56 GMT+0000 (Coordinated Universal Time)
 cuid: cmhsrryjf000102ji93tt722k
 slug: article-2025-11-10-1536
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762757276512/a787a408-3a01-4e2c-ae0d-f6c6dda48162.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762757304105/8b71fc5a-dabf-4915-93bf-d5a1994a6367.png
 tags: ai, workflow, automation, google, devops, no-code, workflow-automation
 
 ---
