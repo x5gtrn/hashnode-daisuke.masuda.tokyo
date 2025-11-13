@@ -3,6 +3,8 @@ title: "Java & JVM in 2025: The Complete Engineering Guide"
 datePublished: Thu Nov 13 2025 18:53:41 GMT+0000 (Coordinated Universal Time)
 cuid: cmhxsez53000102jtahllbyih
 slug: article-2025-11-14-0352
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763060349959/12231106-7b94-40d0-b9be-cb595e0793c6.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1763060369282/70bcb010-226e-47b6-95d4-06950cbf378b.png
 tags: jvm, java, performance, backend, kotlin, springboot, benchmarks
 
 ---
