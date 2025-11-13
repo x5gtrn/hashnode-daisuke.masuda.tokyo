@@ -11,6 +11,8 @@ tags: jvm, java, performance, backend, kotlin, springboot, benchmarks
 
 As we progress through 2025, Java continues to evolve as one of the most robust platforms for server-side development. This comprehensive guide examines the current state of the Java ecosystem, recent performance improvements, language evolution, and market dynamics that every backend engineer should understand.
 
+%[https://speakerdeck.com/x5gtrn/java-and-jvm-in-2025-the-complete-guide] 
+
 ## Latest Java/JVM Features: What's New
 
 ### Java 23: Developer Experience Revolution
