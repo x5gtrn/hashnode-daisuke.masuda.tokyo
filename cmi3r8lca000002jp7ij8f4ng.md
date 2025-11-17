@@ -3,6 +3,7 @@ title: "World of Warcraft Addon Development: Complete Guide"
 datePublished: Mon Nov 17 2025 23:07:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmi3r8lca000002jp7ij8f4ng
 slug: article-2025-11-18-0805
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763421582465/2d9f88a4-17d8-4c15-9934-5caee0d7bb6e.png
 tags: intellij-idea, lua, vs-code, wow, world-of-warcraft, emmylua
 
 ---
