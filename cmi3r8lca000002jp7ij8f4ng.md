@@ -33,15 +33,15 @@ Addons typically serve one or more of these purposes:
 
 Some of the most widely used addons include:
 
-* **WeakAuras** - Highly customizable display framework for buffs, debuffs, and custom triggers
+* **WeakAuras** – Highly customizable display framework for buffs, debuffs, and custom triggers
     
-* **Deadly Boss Mods (DBM)** - Boss encounter timers and warnings
+* **Deadly Boss Mods (DBM)** – Boss encounter timers and warnings
     
-* **ElvUI** - Complete UI replacement with modern aesthetics
+* **ElvUI** – Complete UI replacement with modern aesthetics
     
 * **Details!** - Advanced damage and healing meter
     
-* **Plater Nameplates** - Customizable nameplate addon
+* **Plater Nameplates** – Customizable nameplate addon
     
 
 ## Choosing Your Development Environment
@@ -67,7 +67,7 @@ Before diving into addon development, you'll need to set up a proper development
 
 1. [**wow-bundle**](https://marketplace.visualstudio.com/items?itemName=Septh.wow-bundle) - Provides WoW-aware Lua grammar and .toc file colorization
     
-2. [**WoW API for LuaLS**](https://marketplace.visualstudio.com/items?itemName=ketho.wow-api) - IntelliSense support for the WoW API
+2. [**WoW API for LuaLS**](https://marketplace.visualstudio.com/items?itemName=ketho.wow-api) – IntelliSense support for the WoW API
     
 
 **Quick Installation:**
