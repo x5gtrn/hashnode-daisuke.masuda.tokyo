@@ -671,6 +671,8 @@ As a practical example of addon development and maintenance, I'd like to introdu
 
 WoWJapanizerX is a Japanese localization addon that translates World of Warcraft's user interface, quest text, items, NPCs, and other game elements into Japanese. This is particularly valuable since Blizzard doesn't officially support Japanese localization for the retail version of WoW.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1763423440384/3435f1bc-d987-4f6c-9d38-d3b6658ddab7.gif align="center")
+
 ### Technical Challenges in Localization Addons
 
 Building and maintaining a localization addon presents unique technical challenges:
