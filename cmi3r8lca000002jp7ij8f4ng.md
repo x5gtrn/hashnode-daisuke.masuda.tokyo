@@ -874,7 +874,3 @@ The key to mastering addon development is practice and studying existing addons.
     
 
 Remember: every popular addon started as someone's first "Hello World." What will you build?
-
----
-
-*Did you find this guide helpful? Follow me for more WoW addon development content and engineering deep-dives. Have questions or suggestions? Leave a comment below!*
