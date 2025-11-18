@@ -147,7 +147,7 @@ The [Total RP 3](https://www.curseforge.com/wow/addons/total-rp-3) development t
 * Mature codebase
     
 
-IntelliJ IDEA Community Edition (free) is fully enough for WoW addon development.
+IntelliJ IDEA Community Edition (free) is useful enough for WoW addon development.
 
 ### Setting Up IntelliJ IDEA for WoW Development
 
