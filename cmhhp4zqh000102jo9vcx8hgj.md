@@ -858,8 +858,6 @@ The future where everyone can bring their ideas to life isn't coming—it's alre
 
 ---
 
-*Have you tried YouWare? Share your experience in the comments below!*
-
 ## Additional Resources
 
 * [YouWare Documentation](https://docs.youware.com)
