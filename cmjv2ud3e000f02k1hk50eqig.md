@@ -8,9 +8,11 @@ tags: cloudflare, ai, task-management, claude, mcp, mcp-server, mcp-client
 
 ---
 
-OmniFocus is a powerhouse for task management, but its reliance on local access can feel restrictive in an era of cloud-native workflows. For engineers who live in the terminal and collaborate across distributed systems, the inability to programmatically interact with their task manager from anywhere is a significant bottleneck. What if you could bridge this gap—securely, and without punching a single hole in your firewall?
+[OmniFocus](https://www.omnigroup.com/omnifocus/) is a powerhouse for task management, but its reliance on local access can feel restrictive in an era of cloud-native workflows. For engineers who live in the terminal and collaborate across distributed systems, the inability to programmatically interact with their task manager from anywhere is a significant bottleneck. What if you could bridge this gap—securely, and without punching a single hole in your firewall?
 
 This guide provides a comprehensive walkthrough for building a robust, secure, and persistent bridge between your always-on Mac running OmniFocus and a remote client like Claude Desktop. By leveraging the **Model Context Protocol (MCP)**, the excellent [**omnifocus-mcp-enhanced**](https://github.com/jqlts1/omnifocus-mcp-enhanced) \[1\] server, and the power of **Cloudflare Tunnel** \[2\], you can create a personal, AI-enabled productivity endpoint. We'll go beyond a simple proof-of-concept to build a production-ready setup that is both powerful and secure.
+
+%[https://speakerdeck.com/x5gtrn/remote-omnifocus-access-via-cloudflare-tunnel-plus-remote-mcp] 
 
 ## The Problem: OmniFocus in a Cloud-First World
 
