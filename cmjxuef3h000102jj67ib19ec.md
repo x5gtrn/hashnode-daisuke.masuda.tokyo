@@ -4,7 +4,7 @@ datePublished: Sat Jan 03 2026 05:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cmjxuef3h000102jj67ib19ec
 slug: beyond-the-prompt-a-deep-dive-into-manus-the-ai-agent-that-actually-gets-work-done
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767264825437/48e7a109-e922-4b57-a310-037e5d7162fc.jpeg
-tags: ai, productivity, automation, ai-agents
+tags: ai, productivity, automation, ai-agents, manus
 
 ---
 
@@ -13,6 +13,8 @@ As engineers, we've been inundated with AI assistants that promise to revolution
 What if an AI could move beyond the prompt-and-response cycle? What if it could take a high-level goal, create a plan, and execute it autonomously across multiple tools and platforms? This is the promise of [**Manus AI**](https://manus.im/), an autonomous general AI agent that functions less like a copilot and more like a fully empowered teammate.
 
 With its recent [acquisition by Meta Platforms](https://www.facebook.com/business/news/manus-joins-meta-accelerating-ai-innovation-for-businesses) and the release of the powerful **Manus 1.6 Max** engine, now is the perfect time for a deep dive into what Manus is, how it works, and why it might be the most significant tool to enter an engineer's toolkit this year.
+
+%[https://speakerdeck.com/x5gtrn/manus-i-agent-complete-guide] 
 
 ## What is Manus? A Look Under the Hood
 
