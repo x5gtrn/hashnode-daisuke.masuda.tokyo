@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: A Deep Dive into Manus, the AI Agent That Actually Gets Work Done"
 datePublished: Sat Jan 03 2026 05:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cmjxuef3h000102jj67ib19ec
-slug: beyond-the-prompt-a-deep-dive-into-manus-the-ai-agent-that-actually-gets-work-done
+slug: article-2026-01-02-0324
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767264825437/48e7a109-e922-4b57-a310-037e5d7162fc.jpeg
 tags: ai, productivity, automation, ai-agents, manus
 
