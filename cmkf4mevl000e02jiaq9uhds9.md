@@ -2,7 +2,7 @@
 title: "Java vs. Go vs. TypeScript: A Senior Engineer’s Guide to Backend Development in 2026"
 datePublished: Thu Jan 15 2026 07:26:53 GMT+0000 (Coordinated Universal Time)
 cuid: cmkf4mevl000e02jiaq9uhds9
-slug: article-2026-01-05-1629
+slug: article-2026-01-15-1629
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768461463886/e55bff04-e9e8-4f2a-abf2-5aae0b51d04a.jpeg
 tags: go, java, backend, typescript
 
